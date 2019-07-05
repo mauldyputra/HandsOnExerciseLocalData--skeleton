@@ -20,9 +20,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var numOfStudentsTextField: UITextField!
     
     //variables
-    
-    var schoolArray = [School]()
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
