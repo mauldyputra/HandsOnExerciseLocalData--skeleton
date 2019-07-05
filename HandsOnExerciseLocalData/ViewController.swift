@@ -55,15 +55,16 @@ class ViewController: UIViewController {
 
 extension ViewController: UITableViewDataSource, UITableViewDelegate  {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return schoolArray.count
+        //insert code here//
+        return 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "tvCell", for: indexPath)
         
-        let school = schoolArray[indexPath.row]
+        //insert code here//
         
-        cell.textLabel?.text = school.name! + " (\(school.numOfStudents))"
+        cell.textLabel?.text = "//insert code here"
         
         return  cell
     }
